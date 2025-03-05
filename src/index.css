@@ -1,0 +1,27 @@
+@layer tailwind-base, antd;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  /* overflow: hidden; */
+}
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+.ql-editor {
+  min-height: 160px !important;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BD | ChatBot AI</title>
+  </head>
+  <!-- <script src="http://127.0.0.1:8080/chatbot.js"></script>
+  <script>
+    // Hàm tạo UUID (dùng phương pháp phổ biến)
+    function generateUUID() {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        const r = (Math.random() * 16) | 0
+        const v = c === 'x' ? r : (r & 0x3) | 0x8
+        return v.toString(16)
+      })
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Kiểm tra xem client_user_id đã tồn tại trong localStorage chưa
+      let clientUserId = localStorage.getItem('client_user_id')
+
+      if (!clientUserId) {
+        // Nếu chưa có, tạo mới và lưu vào localStorage
+        clientUserId = generateUUID()
+        localStorage.setItem('client_user_id', clientUserId)
+      }
+
+      // Truyền clientUserId vào thư viện ChatLibrary
+      const chatLibrary = new ChatLibrary('admin', '674ee195372b298c16c800e0')
+      chatLibrary.init()
+    })
+  </script> -->
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

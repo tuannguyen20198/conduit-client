@@ -1,0 +1,10 @@
+.appContainer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  // background: blue;
+  box-sizing: border-box;
+  :global(.ant-layout) {
+    min-height: 100vh;
+  }
+}

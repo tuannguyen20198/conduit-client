@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@services/*": ["./src/services/*"],
+      "@types/*": ["./src/types/*"],
+
+      "@store/*": ["./src/store/*"],
+      "@redux-slices/*": ["./src/redux-slices/*"],
+      "@config/*": ["./src/config/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@common/*": ["./src/assets/stylesheets/_index.scss"],
+      "@locales/*": ["./src/locales/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@enums/*": ["./src/helpers/enums/*"],
+      "@interfaces/*": ["./src/helpers/interfaces/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@route-constant": ["./src/config/routes/constants"],
+      "@env": ["./src/env.ts"]
+    }
+  }
+}
