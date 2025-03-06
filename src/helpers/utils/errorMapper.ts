@@ -1,7 +1,7 @@
 import _get from 'lodash/get'
 import axios, { type AxiosError } from 'axios'
 import { parseNumber } from './utils'
-import i18n from '@locales/i18n'
+import i18n from "i18next"; 
 
 export type APIError = {
   errorCode?: string | null | number
